@@ -4,56 +4,6 @@ body {
 	font-size: 15px;
 }
 
-.page {
-  margin: 20px 0
-}
-
-.wrapper {
-  max-width: 1160px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 20px;
-  min-height: 600px;
-}
-
-.content-wrapper {
-  float: left;
-  width: 100%;
-  	background: #e5e5e5;
-
-}
-
-.content-inner {
-  margin-left: 260px;
-  clear: both;
-  overflow: auto;
-  min-height: 600px;
-}
-
-.sidebar {
-  position: fixed;
-  width: 250px;
-  margin-right: -250px;
-  float: left;
-  overflow: hidden;
-  background: #FFFFFF;
-  min-height: 600px;
-  border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 0px 4px 1px 0px #000000;
-  padding: 10px;
-}
-
-#sidebar-nav ul {
-	list-style: none;
-	text-align: right;
-}
-
-#sidebar-nav a {
-	color: #000000;
-	text-decoration: none;
-}
-
 #content{
 	border: 1px solid black;
 	border-radius: 10px;
@@ -61,58 +11,6 @@ body {
 	padding: 10px;
 	background: #FFFFFF;
 	margin-bottom: 10px;
-}
-
-.blogimg {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	display: block;
-	border: 2px solid black;
-	height: 50%;
-	width: 100%;
-}
-
-.bookimg {
-	border: 2px solid black; 
-	margin-bottom: 10px;
-	display: inline-block;
-	margin-top: 10px;
-}
-
-.interviewimg{
-	border: 2px solid black; 
-	display: inline;
-}
-
-.btn-default{
-	font-size: 18px;
-	border: solid black 1px;
-	display: inline;
-}
-
-.nolink a:hover{
-	color: #000000;
-	text-decoration: none;
-}
-
-.sidebar-mobile{
-	display: none;
-	border: 1px solid black;
-	border-radius: 10px;
-	box-shadow: 0px 4px 1px 0px #000000;
-	padding: 10px;
-	background: #FFFFFF;
-	margin-bottom: 10px;
-	width: 100%;
-}
-
-.sidebar-mobile a{
-	color: #000000;
-	text-decoration: none;
-}
-
-.sidebar-mobile h2{
-	display: inline;
 }
 
 li {
